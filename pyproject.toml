@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-metadata-playground"
+version = "0.1.0"
+description = ""
+authors = ["Jennifer Cwagenberg <CandiedCode@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+# ml-metadata = {url = "https://pypi-nightly.tensorflow.org/api/package/ml-metadata/ml_metadata-1.8.0.dev20220327-cp39-cp39-macosx_10_14_x86_64.whl#sha256=01f6d117e60a515ac46d93ccff36a2f63972e4c7a81eb35bba40e1ec61313bd3"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
